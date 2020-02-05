@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MenuItems>
+  <Starters price="4.40">
+    <Item>Soup</Item>
+  </Starters>
+  <Mains price="7.00">
+    <Item>Pizza</Item>
+  </Mains>
+</MenuItems>
