@@ -1,6 +1,6 @@
 Just a sample project in which I CRUD on an existing menu.
 
-I have created test which test teh CRUD functionality.
+I have created test which test the CRUD functionality.
 
 The test framework is Specflow with NUnit.
 
