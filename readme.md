@@ -2,7 +2,7 @@ Just a sample project in which I CRUD on an existing menu.
 
 I have created test which test the CRUD functionality.
 
-The test framework is Specflow with NUnit. Thee test in question to add items to the basket is called ``
+The test framework is Specflow with NUnit. Thee test in question to add items to the basket is called `Order Menu Items`
 
 After each run test run the menu is reverted back to a known state.
 
