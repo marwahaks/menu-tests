@@ -102,13 +102,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\BasketModel.cs" />
     <Compile Include="Hook\Hooks.cs" />
+    <Compile Include="PageObjects\MenuPageTests.cs" />
     <Compile Include="Steps\MenuItems.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\MenuBackup.xml" />
     <Content Include="Resources\Menu.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

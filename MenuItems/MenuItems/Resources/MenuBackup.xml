@@ -2,8 +2,13 @@
 <MenuItems>
   <Starters price="4.40">
     <Item>Soup</Item>
+    <Item>Onion Bhaji</Item>
+    <Item>Prawns</Item>
   </Starters>
   <Mains price="7.00">
     <Item>Pizza</Item>
+    <Item>Pasta</Item>
+    <Item>Somose</Item>
+    <Item>Daal</Item>
   </Mains>
 </MenuItems>

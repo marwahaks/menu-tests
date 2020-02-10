@@ -1,5 +1,12 @@
 ﻿Feature: MenuCrudTests
 
+Scenario Outline: Order Menu Items
+Given I load the menu
+When I order the following items '<items>'
+Then the menu total should be '<total>'
+Examples: 
+| items                                  | total |
+| Starters;Soup;Prawns:Mains;Pizza;Pasta | 22.8  |
 
 Scenario Outline: Update Menu Items
 Given I load the menu
@@ -25,12 +32,3 @@ Then the menu should not contain the item '<item>'
 Examples: 
 | item | category |
 | Pizza | Mains  | 
-
-Scenario Outline: Order Menu Items
-Given I load the menu
-When I have added the relavent menu items
-When I order the following items '<items>'
-Then the menu total should be '<total>'
-Examples: 
-| items                                | total |
-| Starters;Soup;Bread:Mains;Pizza;Saag | 22.8  |
