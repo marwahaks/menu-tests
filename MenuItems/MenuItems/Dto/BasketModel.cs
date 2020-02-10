@@ -35,18 +35,5 @@ namespace MenuItems.Dto
                 }
             }
         }
-
-        //public Dictionary<string, string> AddItem
-        //{
-        //    set
-        //    {
-        //        if (value != null)
-        //        {
-        //            _basket.Add(value);
-        //        }
-        //    }
-        //}
-
-
     }
 }
