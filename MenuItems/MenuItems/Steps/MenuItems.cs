@@ -1,12 +1,5 @@
-﻿using MenuItems.Dto;
-using MenuItems.PageObjects;
+﻿using MenuItems.PageObjects;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Xml.Linq;
 using TechTalk.SpecFlow;
 
 namespace MenuItems.Steps
